@@ -7,7 +7,35 @@
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>A91F0CA3-D50B-4F27-A120-BFA4B13EF4A0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F2E45C14-AFC9-4284-B1EB-B7BCE88842D1</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>B006B36B-11FE-4D6A-850F-0496EB7954C6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B006B36B-11FE-4D6A-850F-0496EB7954C6</key>
+		<array/>
+		<key>F2E45C14-AFC9-4284-B1EB-B7BCE88842D1</key>
+		<array/>
+	</dict>
 	<key>createdby</key>
 	<string>Yolanda Yuan</string>
 	<key>description</key>
@@ -18,6 +46,25 @@
 	<string>Goo Translate</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F2E45C14-AFC9-4284-B1EB-B7BCE88842D1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -61,6 +108,25 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>B006B36B-11FE-4D6A-850F-0496EB7954C6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -69,9 +135,23 @@
 		<key>A91F0CA3-D50B-4F27-A120-BFA4B13EF4A0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>160</integer>
+			<integer>250</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>290</integer>
+		</dict>
+		<key>B006B36B-11FE-4D6A-850F-0496EB7954C6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>560</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>F2E45C14-AFC9-4284-B1EB-B7BCE88842D1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>560</integer>
+			<key>ypos</key>
+			<integer>250</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
