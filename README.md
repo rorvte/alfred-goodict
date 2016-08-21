@@ -33,7 +33,7 @@ This workflow is based on the following libraries (also released under the MIT l
 [alfred]: http://www.alfredapp.com/
 [goo]: http://dictionary.goo.ne.jp/
 [releases]: https://github.com/rorvte/alfred-goodict/releases/latest
-[demo]: http://7xs2lz.com1.z0.glb.clouddn.com/demo.gif "Workflow in action"
+[demo]: http://7xs2lz.com1.z0.glb.clouddn.com/demo.gif
 [packal]: http://www.packal.org/workflow/alfred-goodict
 [issues]: https://github.com/rorvte/alfred-goodict/issues
 [mit]: http://opensource.org/licenses/MIT
