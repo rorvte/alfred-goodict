@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 """
-A workflow for Alfred 3 (http://www.alfredapp.com/).
+A workflow for Alfred (http://www.alfredapp.com/).
 
 Search the definitive Japanese dictionary at http://dictionary.goo.ne.jp
 """
@@ -19,14 +19,13 @@ from workflow import web, Workflow, ICON_WARNING
 from bs4 import BeautifulSoup as BS
 from bs4 import Tag
 
-UPDATE_SETTINGS = {'github_slug': 'yolanday/alfred-goodict'}
-USER_AGENT = 'Alfred-Goodict/{version} (https://github.com/yolanday/alfred-goodict)'
+# UPDATE_SETTINGS = {'github_slug': 'rorvte/alfred-goodict'}
+USER_AGENT = 'Alfred-Goodict/{version} (https://github.com/rorvte/alfred-goodict)'
 
 BASE_URL = b'http://dictionary.goo.ne.jp'
 SEARCH_URL = b'{}/srch/all/{{query}}/m0u/'.format(BASE_URL)
 
 MAX_CACHE_AGE = 3600  # 1 hour
-MIN_QUERY_LENGTH = 2
 log = None
 
 def unescape(text):
@@ -148,11 +147,6 @@ def main(wf):
     #                 'Action this item to update',
     #                 autocomplete='workflow:update',
     #                 icon='update-available.icns')
-
-    # if len(query) < MIN_QUERY_LENGTH:
-    #     wf.add_item('Query too short', 'Keep typing...', icon=ICON_WARNING)
-    #     wf.send_feedback()
-    #     return 0
 
     def wrapper():
         return lookup(query)
