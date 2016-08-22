@@ -1,8 +1,6 @@
 # Goo Japanese Translate Alfred Workflow #
 
-A workflow for [Alfred][alfred].
-
-Alfred workflow for searching the definitive Japanese dictionary at [Goo][goo] with auto-suggest.
+A [Alfred][alfred] workflow for searching the definitive Japanese dictionary at [Goo Dictionary][goo] with auto-suggest.
 
 ![Workflow in action](./demo.gif)
 
