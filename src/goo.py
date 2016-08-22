@@ -19,7 +19,7 @@ from workflow import web, Workflow, ICON_WARNING
 from bs4 import BeautifulSoup as BS
 from bs4 import Tag
 
-# UPDATE_SETTINGS = {'github_slug': 'rorvte/alfred-goodict'}
+UPDATE_SETTINGS = {'github_slug': 'rorvte/alfred-goodict'}
 USER_AGENT = 'Alfred-Goodict/{version} (https://github.com/rorvte/alfred-goodict)'
 
 BASE_URL = b'http://dictionary.goo.ne.jp'
@@ -142,11 +142,11 @@ def main(wf):
 
     log.debug('query : %r', query)
 
-    # if wf.update_availble:
-    #     wf.add_item('New version available',
-    #                 'Action this item to update',
-    #                 autocomplete='workflow:update',
-    #                 icon='update-available.icns')
+    if wf.update_available:
+        wf.add_item('New version available',
+                    'Action this item to update',
+                    autocomplete='workflow:update',
+                    icon='update-available.icns')
 
     def wrapper():
         return lookup(query)
@@ -172,8 +172,7 @@ def main(wf):
     wf.send_feedback()
 
 if __name__ == '__main__':
-    wf = Workflow()
-    # wf = Workflow(update_settings=UPDATE_SETTINGS)
+    wf = Workflow(update_settings=UPDATE_SETTINGS)
     log = wf.logger
     sys.exit(wf.run(main))
 

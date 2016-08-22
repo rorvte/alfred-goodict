@@ -2,7 +2,7 @@
 
 A workflow for [Alfred][alfred].
 
-Alfred workflow for search the definitive Japanese dictionary at [Goo][goo] with auto-suggest.
+Alfred workflow for searching the definitive Japanese dictionary at [Goo][goo] with auto-suggest.
 
 ![Workflow in action](./demo.gif)
 
