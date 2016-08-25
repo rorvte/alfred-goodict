@@ -99,7 +99,7 @@ def lookup(query):
     r.raise_for_status()
 
     # Parse results
-    soup = BS(r.content, b'lxml')
+    soup = BS(r.content, b'html5lib')
     elems = soup.find_all('ul', {'class', 'list-search-a'})
 
     for elem in elems:
