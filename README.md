@@ -1,6 +1,6 @@
 # Goo Japanese Translate Alfred Workflow #
 
-A [Alfred][alfred] workflow for searching the definitive Japanese dictionary at [Goo Dictionary][goo] with auto-suggest.
+A [Alfred][alfred] workflow for searching the definitive Japanese dictionary at [Goo Dictionary][goo] with auto-suggest. This workflow allows you translate words among Japanese, English and Chinese.
 
 ![Workflow in action](./demo.gif)
 
@@ -18,14 +18,11 @@ Actioning a result with `RETURN` will open the full results page at dictionary.g
 
 If you have a feature request, bug report or other query, you can get in touch using the [GitHub issue tracker][issues].
 
-## Licensing, thanks ##
+## Licensing, credits ##
 
 The code of this workflow is released under the [MIT licence][mit].
 
-This workflow is based on the following libraries (also released under the MIT licence):
-
-- The legendary [Beautiful Soup][bs] by [Leonard Richardson][lenny],
-- the extremely awesome [Alfred-Workflow][aw] by [Dean Jackson][deanishe].
+This workflow uses [Beautiful Soup][bs] and [Alfred-Workflow][aw].
 
 
 [alfred]: http://www.alfredapp.com/
@@ -35,8 +32,6 @@ This workflow is based on the following libraries (also released under the MIT l
 [issues]: https://github.com/rorvte/alfred-goodict/issues
 [mit]: http://opensource.org/licenses/MIT
 [bs]: http://www.crummy.com/software/BeautifulSoup/
-[lenny]: http://www.crummy.com/self/
 [aw]: http://www.deanishe.net/alfred-workflow/index.html
-[deanishe]: https://github.com/deanishe/
 
 
